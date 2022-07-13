@@ -1,9 +1,14 @@
-﻿Console.WriteLine("Введите положительное целое число");
-int a = Convert.ToInt32(Console.ReadLine());
-for (int i = 1; i <= a; i++)
+﻿void Numbers()
 {
-    if (i % 2 == 0)
+    Console.WriteLine("Введите положительное целое число");
+    int a = Convert.ToInt32(Console.ReadLine());
+    for (int i = 1; i <= a; i++)
     {
-        Console.Write(i + " ");
+        if (i % 2 == 0)
+        {
+            Console.Write(i + " ");
+        }
     }
 }
+
+Numbers();
